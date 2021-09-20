@@ -1,0 +1,16 @@
+{
+  "name": "gh-webhook-actions-dispatch",
+  "version": "1.0.0",
+  "description": "A layer to translate GitHub webhooks into Actions workflow_dispatch calls",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "morgan": "^1.10.0"
+  }
+}
